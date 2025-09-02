@@ -1,0 +1,67 @@
+--- Expense Tracker ---
+1. Add Expense
+2. View All Expenses
+3. View Total Spending
+4. Filter by Category
+5. Exit
+Enter choice: 1
+Enter amount: 100
+Enter category (e.g., Food, Travel, Bills): Food
+Enter description: Lunch at cafe
+Enter date (YYYY-MM-DD): 04-07-2025
+Expense added successfully!
+
+--- Expense Tracker ---
+1. Add Expense
+2. View All Expenses
+3. View Total Spending
+4. Filter by Category
+5. Exit
+Enter choice: 11
+Enter amount: 200
+Enter category (e.g., Food, Travel, Bills): Travel
+Enter description: Train ticket
+Enter date (YYYY-MM-DD): 05-07-2025
+Expense added successfully!
+
+--- Expense Tracker ---
+1. Add Expense
+2. View All Expenses
+3. View Total Spending
+4. Filter by Category
+5. Exit
+Enter choice: 2
+Date       | Category   | Description                    | Amount
+---------------------------------------------------------------
+04-07-2025 | Food       | Lunch at cafe                  | $100.00
+05-07-2025 | Travel     | Train ticket                   | $200.00
+
+--- Expense Tracker ---
+1. Add Expense
+2. View All Expenses
+3. View Total Spending
+4. Filter by Category
+5. Exit
+Enter choice: 3
+Total spending: ₹300.00
+
+--- Expense Tracker ---
+1. Add Expense
+2. View All Expenses
+3. View Total Spending
+4. Filter by Category
+5. Exit
+Enter choice: 4
+Enter category to filter: Food
+Date       | Category   | Description                    | Amount
+---------------------------------------------------------------
+04-07-2025 | Food       | Lunch at cafe                  | $100.00
+
+--- Expense Tracker ---
+1. Add Expense
+2. View All Expenses
+3. View Total Spending
+4. Filter by Category
+5. Exit
+Enter choice: 5
+Goodbye!
