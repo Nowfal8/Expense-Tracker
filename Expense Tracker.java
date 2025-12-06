@@ -5,7 +5,7 @@ class Expense {
     double amount;
     String category;
     String description;
-    String date; // e.g., "2025-07-06"
+    String date; 
 
     Expense(double amount, String category, String description, String date) {
         this.amount = amount;
@@ -34,7 +34,7 @@ public class ExpenseTracker {
             System.out.println("5. Exit");
             System.out.print("Enter choice: ");
             choice = scanner.nextInt();
-            scanner.nextLine(); // clear newline
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -109,4 +109,5 @@ public class ExpenseTracker {
             System.out.println("No expenses found for category: " + filter);
         }
     }
+
 }
